@@ -1,8 +1,4 @@
 //Marawan El Sharkawi
-//CSCI 301-Section 1
-//#cs301175
-//Project 5
-
 /*
 Ordered lists are lists that holds items all arranged according to the value of each item after the other,
 Linked List data structure is useful to implement ordered lists.This program uses an ordered list ADT in a class with a
@@ -10,39 +6,39 @@ linked list. The program uses this class to get offer a broad range of actions t
 
  The program uses five data structures:
 
-•   One class object with linked lists which has all the required functions to get the actions done chosen by the user.
+â€¢   One class object with linked lists which has all the required functions to get the actions done chosen by the user.
 
-•	Two integer variables in the main program called "quit" which acts like an exit key when incremented and the other called
+â€¢	Two integer variables in the main program called "quit" which acts like an exit key when incremented and the other called
  "number" to get the integer input from the user and pass this variable to different functions.
 
-•   One char variable called "choice" to get the choice of the action the user want to implement on the list.
+â€¢   One char variable called "choice" to get the choice of the action the user want to implement on the list.
 
-•	Node which is of the building units of the linked lists where each integer lies in a node and a pointer points to that node
+â€¢	Node which is of the building units of the linked lists where each integer lies in a node and a pointer points to that node
 and another points to the next node to form the linked list.
 
-•	Linked lists to hold the content of the ordered list.
+â€¢	Linked lists to hold the content of the ordered list.
 
 
 The program uses eight functions:
-•	make_list_empty( ):It makes a list which already has integers inside it empty.
+â€¢	make_list_empty( ):It makes a list which already has integers inside it empty.
 
-•	insert ( const Item& entry ): It takes a constant item passed by reference as a parameter and it inserts the value of that
+â€¢	insert ( const Item& entry ): It takes a constant item passed by reference as a parameter and it inserts the value of that
 item in a list by creating node and saving these values inside them.
 
-•	remove( const Item& entry ): It takes a constant item passed by reference as a parameter and it removes this item from the
+â€¢	remove( const Item& entry ): It takes a constant item passed by reference as a parameter and it removes this item from the
  linked list.
 
-•	length( ): It gets the length of the list (how many items in the list).
+â€¢	length( ): It gets the length of the list (how many items in the list).
 
-•   kth(int k): It gets the value of th kth value in the list.
+â€¢   kth(int k): It gets the value of th kth value in the list.
 
-•	exists( const Item& target ): It take a constant item passed by reference as a parameter and it checks if a given integer
+â€¢	exists( const Item& target ): It take a constant item passed by reference as a parameter and it checks if a given integer
 exists in the list.
 
-•	get_node ( const Item& entry, Node* link ): It takes a constant item passed by reference and a Struct Node as parameter and
+â€¢	get_node ( const Item& entry, Node* link ): It takes a constant item passed by reference and a Struct Node as parameter and
 it creates a new node and puts this item in it.
 
-•   menu( ): It prints the menu options for the user to choose from.
+â€¢   menu( ): It prints the menu options for the user to choose from.
 
 The program creates one List class object, two integer variables and one char variable. It shows the user the menu with options
 to choose from and asks the user to choose an option from the list. It read the user's input and apply the action the user
